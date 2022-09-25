@@ -33,7 +33,7 @@ const USER_CONFIG = {
     // 每日一言
     oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: true,
     // 毒鸡汤
@@ -65,9 +65,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ofyzX5pa2K8qK0ahaoArOnHy-5pk',
+      id: 'ofyzX5hXlVz3UxqVF6vjSwLaNwG0',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '	Y3gvVNoJ5iB06Rmnoznc6EcRbOuU6VDbREdf6CNIkYY',
+      useTemplateId: 'Y3gvVNoJ5iB06Rmnoznc6EcRbOuU6VDbREdf6CNIkYY',
       // 所在省份
       province: '安徽',
       // 所在城市
@@ -82,7 +82,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
+          type: '*生日', name: '老婆', year: '2000', date: '10-07',
         },
         {
           type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
